@@ -25,3 +25,16 @@ Here is code that turns the RGB light green when you press the 'OK' button
     sparki.RGB(RGB_GREEN);
   }
 ```
+
+### Down Arrow
+The '↓' Button is integer 51
+
+Here is code that turns the RGB light green when you press the '↓' button 
+
+```
+  int DOWN = 51
+  
+  if (irCode == DOWN){
+    sparki.RGB(RGB_GREEN);
+  }
+```
